@@ -1,0 +1,84 @@
+body {
+  background-color: #ffb400;
+}
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.first,
+.second,
+.third {
+  display: flex;
+}
+.first {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  padding: 20px;
+  flex: 4;
+}
+.first,
+.second,
+.third {
+  border: 1px solid black;
+}
+.first {
+  flex: 0.5;
+}
+.second {
+  flex: 4;
+}
+
+.third {
+  flex: 0.5;
+}
+.container .first .avatar img {
+  border-radius: 70%;
+  width: 100px;
+}
+.full-name {
+  font-weight: bold;
+}
+.social-linkes {
+  display: flex;
+}
+.social-linkes .github .github-image {
+  width: 14px;
+  height: 14px;
+  background-color: #ffb400;
+}
+.social-linkes .x .x-image {
+  width: 14px;
+  height: 14px;
+  background-color: #ffb400;
+}
+.social-linkes .linkedin .linkedin-image {
+  background-color: #ffb400;
+  width: 14px;
+  height: 14px;
+}
+.first .info .about {
+  background-color: #ffb400;
+  display: inline-block;
+}
+.first .info .value {
+  text-align: right;
+}
+.first .info {
+  display: flex;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.first .info .about,
+.first .info .value {
+  margin-top: 7px;
+}
+.first .info .info-left {
+  width: 30%;
+  flex-direction: column;
+}
+.first .info .info-right {
+  width: 70%;
+  flex-direction: column;
+}
