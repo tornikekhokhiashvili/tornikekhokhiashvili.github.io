@@ -66,16 +66,14 @@ body {
   justify-content: space-between;
   margin-top: 10px;
 }
-
-.first .languages .languages-item {
-  display: flexbox;
-  justify-content: space-between;
-}
 .first .languages .languages-item .languages-items-item {
   display: flex;
   justify-content: space-between;
 }
-.first .programming-languages .programming-languages-item {
-  display: flexbox;
+.first .skills .skills-item .skills-items-item {
+  display: flex;
   justify-content: space-between;
+}
+.first .button {
+  background-color: #ffb400;
 }
