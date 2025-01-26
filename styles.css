@@ -5,16 +5,18 @@ body {
 .container {
   display: flex;
   flex-direction: row;
+  background-color: white;
 }
 .first-section {
   width: 305px;
   text-align: center;
+  box-sizing: border-box;
+  margin: 20px 20px;
 }
 .first-section,
 .second-section,
 .third-section {
   background-color: white;
-  border: 1px solid black;
 }
 
 .container .first-section .avatar img {
@@ -35,6 +37,7 @@ body {
 .social-linkes {
   display: flex;
   margin: 0 auto;
+  justify-content: center;
 }
 .social-linkes .github,
 .social-linkes .x,
@@ -70,6 +73,9 @@ body {
   justify-content: space-between;
   margin-top: 10px;
 }
+.first-section .info .info-item:nth-child(3) .value {
+  color: green;
+}
 .first-section progress {
   border-radius: 7px;
   width: 100%;
@@ -85,13 +91,28 @@ body {
   background-color: #ffb400;
   border-radius: 30px;
 }
+.first-section .languages .languages-title {
+  text-align: left;
+  font-weight: 500;
+}
 .first-section .languages .languages-item .languages-items-item {
   display: flex;
   justify-content: space-between;
 }
+.first-section .skills .skills-title {
+  text-align: left;
+  font-weight: 500;
+}
 .first-section .skills .skills-item .skills-items-item {
   display: flex;
   justify-content: space-between;
+  line-height: 24px;
+}
+.first-section .extra-skills .extra-skills-title {
+  text-align: left;
+  font-weight: 500;
+}
+.first-section .extra-skills .extra-skill {
 }
 .first-section .extra-skills .extra-skill .extra-skills-icon {
   display: inline-block;
@@ -101,9 +122,46 @@ body {
 }
 .first-section .button {
   background-color: #ffb400;
+  width: 220px;
+  height: 40px;
+  border: 0;
+}
+.first-section .button .button-img {
+  display: inline-block;
+  width: 14px;
+  height: 16px;
+  background-image: url("/img/download-cv-icon.svg");
 }
 .second-section {
   width: 970px;
+}
+.second-section .bg-elem {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.second-section .banner .bg-elem.one {
+  background-image: url("/img/ellipse-1-bg.svg");
+  position: calc(20);
+}
+.second-section .banner .bg-elem.two {
+  background-image: url("/img/ellipse-2-bg.svg");
+}
+.second-section .banner .bg-elem.three {
+  background-image: url("/img/ellipse-3-bg.svg");
+}
+.second-section .banner .bg-elem.four {
+  background-image: url("/img/ellipse-4-bg.svg");
+}
+.second-section .banner .bg-elem.five {
+  background-image: url("/img/polygon-1-bg.svg");
+}
+.second-section .banner .bg-elem.six {
+  background-image: url("/img/rectangle-1-bg.svg");
+}
+.second-section .banner .bg-elem.seven {
+  background-image: url("/img/rectangle-2-bg.svg");
 }
 .third-section {
   width: 108px;
