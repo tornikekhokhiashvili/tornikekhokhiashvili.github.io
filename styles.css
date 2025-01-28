@@ -141,28 +141,97 @@ body {
   display: inline-block;
   background-repeat: no-repeat;
 }
+.second-section .banner {
+  height: 467px;
+  width: 970px;
+  position: relative;
+  border: 1px solid red;
+}
 .second-section .banner .bg-elem.one {
   background-image: url("/img/ellipse-1-bg.svg");
-  position: calc(20);
+  position: absolute;
+  top: 30px;
+  left: 40px;
 }
 .second-section .banner .bg-elem.two {
   background-image: url("/img/ellipse-2-bg.svg");
+  position: absolute;
+  top: 422px;
+  left: 88px;
 }
 .second-section .banner .bg-elem.three {
-  background-image: url("/img/ellipse-3-bg.svg");
+  background-image: url("./img/rectangle-1-bg.svg");
+  position: absolute;
+  top: 333px;
+  left: 373px;
 }
 .second-section .banner .bg-elem.four {
-  background-image: url("/img/ellipse-4-bg.svg");
+  background-image: url("./img/ellipse-2-bg.svg");
+  position: absolute;
+  top: 52px;
+  left: 520px;
 }
 .second-section .banner .bg-elem.five {
-  background-image: url("/img/polygon-1-bg.svg");
+  background-image: url("./img/ellipse-1-bg.svg");
+  position: absolute;
+  top: 380px;
+  left: 550px;
 }
 .second-section .banner .bg-elem.six {
-  background-image: url("/img/rectangle-1-bg.svg");
+  background-image: url("./img/rectangle-2-bg.svg");
+  position: absolute;
+  top: 70px;
+  left: 855px;
 }
 .second-section .banner .bg-elem.seven {
-  background-image: url("/img/rectangle-2-bg.svg");
+  background-image: url("./img/polygon-1-bg.svg");
+  position: absolute;
+  top: 427px;
+  left: 921px;
 }
+.second-section .banner .banner-h1 {
+  font-size: 48px;
+  line-height: 59px;
+  margin-top: 93px;
+  margin-left: 60px;
+}
+.second-section .banner .banner-h1 .col-yellow {
+  color: #ffb400;
+}
+.second-section .banner .banner-h4 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 18px;
+  margin-left: 60px;
+  font-weight: 400;
+  color: #767676;
+  width: 424px;
+}
+.second-section .banner .banner-button {
+  background-color: #ffb400;
+  color: #2b2b2b;
+  width: 153px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.second-section .banner .banner-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 325x;
+  height: 469px;
+}
+.second-section .education-container {
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .third-section {
   width: 108px;
 }
